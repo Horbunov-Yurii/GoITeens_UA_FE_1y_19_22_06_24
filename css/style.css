@@ -160,3 +160,55 @@ font-weight: 600;
 line-height: 1.25;
 }
 
+.form-title {
+   color: #A93B59;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 36px;
+font-weight: 600;
+line-height: 1.33;
+}
+
+.form-heading {
+   color: #FFF;
+font-size: 32px;
+font-weight: 600;
+line-height: 1.25;
+}
+
+.form-span {
+   color: #F5EBEB;
+   font-size: 32px;
+   font-weight: 400;
+   line-height: 1.25;   
+}
+
+.form-input {
+   color: #8D8D8D;
+font-size: 20px;
+font-weight: 700;
+line-height: 1.25;
+}
+
+.form-button {
+   color: #FFF;
+font-size: 24px;
+font-weight: 400;
+line-height: 1.25;
+background-color: #A93B59;
+}
+
+.form-subject {
+   color: #FFF;
+text-align: center;
+font-size: 32px;
+font-weight: 400;
+line-height: 1.25;
+}
+
+.form-text {
+   color: rgba(255, 255, 255, 0.71);
+font-size: 20px;
+font-weight: 700;
+line-height: 1.25;
+}
