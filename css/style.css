@@ -2,6 +2,11 @@
 /* font-family: "Rubik Mono One", monospace; */
 /* font-family: "Playfair Display", serif; */
 /* font-family: "Source Sans 3", sans-serif; */
+
+:root{
+  --background-color:#000;
+
+}
 .cantainer {
   width: 1328px;
   margin-left: auto;
@@ -10,8 +15,13 @@
   padding-right: 8px;
   outline: 1px solid red;
 }
+ body {
+  font-family: "Source Sans 3";
+  background-color: var(--background-color);
+}
+
 .header {
-  background-color: grey;
+  
   padding-top: 24px;
 }
 
@@ -33,9 +43,6 @@ height: 39px;
 }
 
 
-body {
-  font-family: "Source Sans 3";
-}
 
 .header-text {
   color: #f5ebeb;
