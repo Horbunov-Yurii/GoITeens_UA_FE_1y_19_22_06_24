@@ -72,14 +72,25 @@ height: 39px;
   padding-bottom: 50px;
 }
 
+.hero-span1 {
+  display: block;
+}
+
+.hero-span {
+  margin-left: 110px;
+  margin-right: 24px;
+}
+
+
+
 .hero-title {
   color: #a93b59;
-  text-align: center;
   font-family: "Playfair Display";
   font-size: 48px;
   font-style: italic;
   font-weight: 500;
   line-height: 1.25;
+  margin-bottom: 24px;
 }
 
 .hero-span {
@@ -99,6 +110,8 @@ height: 39px;
   font-weight: 400;
   line-height: 1.25;
   text-transform: capitalize;
+  margin-left: 110px;
+  margin-bottom: 42px;
 }
 
 .hero-button {
@@ -108,6 +121,32 @@ height: 39px;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.25;
+  margin-left: 110px;
+  padding: 16px 32px;
+  width: 437px;
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 437px;
+}
+
+.hero-list {
+  display: flex;
+  gap: 124px;
+  justify-content: center;
+}
+
+.hero-img {
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 40px;
+} 
+
+.hero-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+
 }
 
 .hero-desc {
@@ -117,6 +156,11 @@ height: 39px;
   font-weight: 400;
   line-height: 1.25;
   text-transform: uppercase;
+  width: 201px;
+}
+
+.hero-item:nth-child(2) > .hero-desc {
+  width: 240px;
 }
 /* ===cotolog=== */
 .catalog {
