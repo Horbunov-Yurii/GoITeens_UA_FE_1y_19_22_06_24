@@ -334,6 +334,7 @@ background-color: transparent;
 .form {
   padding-top: 132px;
   padding-bottom: 121px;
+
 }
 
 .form-title {
@@ -343,6 +344,10 @@ background-color: transparent;
   font-size: 36px;
   font-weight: 600;
   line-height: 1.33;
+  margin-bottom: 140px;
+}
+.form-box{
+  
 }
 
 .form-heading {
