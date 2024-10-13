@@ -349,7 +349,7 @@ background-color: transparent;
   background-color: #B96A7F;
   display: flex;
   align-items: baseline;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 
