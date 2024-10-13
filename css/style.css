@@ -445,3 +445,25 @@ height: 48px;
   font-weight: 700;
   line-height: 1.25;
 }
+.ourcastomers{
+  padding-bottom: 125px;
+}
+.ourcastomers-title{
+  color: #A93B59;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: end;
+  margin-bottom: 140px;
+}
+.ourcastomers-list{
+  display: flex;
+  justify-content: space-between;
+}
+.footer{
+  padding-top: 40px;
+  padding-bottom: 50px;
+  border-top: 1px solid red;
+}
